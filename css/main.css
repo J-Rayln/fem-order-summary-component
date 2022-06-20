@@ -38,7 +38,7 @@ a {
 
 body {
   background-color: var(--clr-PaleBlue);
-  background-image: url(../images/pattern-background-mobile.svg);
+  background-image: url("../images/pattern-background-mobile.svg");
   background-repeat: no-repeat;
   background-position: top;
   font-family: var(--ff-body);
@@ -48,7 +48,7 @@ body {
 }
 @media (min-width: 600px) {
   body {
-    background-image: url(../images/pattern-background-desktop.svg);
+    background-image: url("../images/pattern-background-desktop.svg");
     background-repeat: repeat-x;
   }
 }
@@ -85,7 +85,7 @@ h1 {
   border-radius: var(--br);
 }
 .summary__hero {
-  background-image: url("/images/illustration-hero.svg");
+  background-image: url("../images/illustration-hero.svg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 10rem;
